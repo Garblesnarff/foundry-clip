@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="NO" userDefinedModelVersionIdentifier="">
+    <entity name="ClipboardItemEntity" representedClassName="ClipboardItemEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="changeCount" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="content" attributeType="String"/>
+        <attribute name="contentData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="contentType" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isPinned" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isSensitive" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="size" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sourceApp" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailData" optional="YES" attributeType="Binary"/>
+        <attribute name="timestamp" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="SnippetEntity" representedClassName="SnippetEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="content" attributeType="String"/>
+        <attribute name="createdDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="folder" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="keyboardShortcut" optional="YES" attributeType="String"/>
+        <attribute name="tags" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="updatedDate" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="SettingsEntity" representedClassName="SettingsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="autoExpireSensitive" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="blurSensitivePreviews" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="clearHistoryOnQuit" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="cloudRetention" attributeType="Integer 32" defaultValueString="30" usesScalarValueType="YES"/>
+        <attribute name="globalHotkey" attributeType="String" defaultValueString="cmd+shift+v"/>
+        <attribute name="historyLimit" attributeType="Integer 32" defaultValueString="50" usesScalarValueType="YES"/>
+        <attribute name="iCloudSyncEnabled" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="ignoreApps" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName"/>
+        <attribute name="launchAtLogin" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="runInBackground" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="sensitiveTimeout" attributeType="Integer 32" defaultValueString="30" usesScalarValueType="YES"/>
+        <attribute name="showSourceApp" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="theme" attributeType="String" defaultValueString="dark"/>
+    </entity>
+</model>

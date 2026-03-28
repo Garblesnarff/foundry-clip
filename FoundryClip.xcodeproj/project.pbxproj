@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4ED0DA18D1311E6B8B03F8 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817AC1D66B285CE80F9C4285 /* ClipboardItem.swift */; };
+		248436C206CA8FC72075B6EC /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 55D53053B92876D56715355E /* LaunchAtLogin */; };
+		29CD61246D3C061263F41D7C /* SnippetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397359CE59CB83CCD958E6D3 /* SnippetsView.swift */; };
+		3EE668EDE0BE1848E8417CF2 /* SnippetEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBFEB07749E4A43381C903 /* SnippetEditorView.swift */; };
+		4074311495465A6E7F3C1D83 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 536B3571750E41357EAED147 /* HotKey */; };
+		439042F899D871F9DA460331 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF345628C5FCF48FDE51475 /* SettingsManager.swift */; };
+		4A20436D8999B4B2E68090BB /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193CC21272744E01BD2CA23 /* HistoryListView.swift */; };
+		4CF4005CD6512D4274A8951C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA65045B075AFA21682F1AD /* SettingsView.swift */; };
+		97B5C96349A4F3E14518A47F /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D07596E2AF8D5BF7270E72 /* DataStore.swift */; };
+		9BB020197C2AF381E660B748 /* FoundryClip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 898A488DE5DED473030A5532 /* FoundryClip.xcdatamodeld */; };
+		BFDB2F744E846E03AF14779F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7246CA019D314E71F2D87AF3 /* Assets.xcassets */; };
+		C2AA22BDD5A72000B7F6D6FC /* FoundryColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1176B660361A8FB155B3240D /* FoundryColors.swift */; };
+		C33D41771CC4C3928DD4DCD5 /* SensitivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81139B8386CAA958771E1203 /* SensitivityDetector.swift */; };
+		E09845D2E81B044F0EC07B4A /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F73872EC0CF1CC16DCCFDE /* ClipboardManager.swift */; };
+		F275957C0147BD74292ED88F /* FoundryClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0108BCAB0F2B8C819291A /* FoundryClipApp.swift */; };
+		F3CA32A1BA9FC5B345B0C638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3143E503E93F84E5B662994 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FF345628C5FCF48FDE51475 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		1176B660361A8FB155B3240D /* FoundryColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryColors.swift; sourceTree = "<group>"; };
+		17F30A8D44F2CEA834F27529 /* FoundryClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoundryClip.entitlements; sourceTree = "<group>"; };
+		1CF0108BCAB0F2B8C819291A /* FoundryClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryClipApp.swift; sourceTree = "<group>"; };
+		397359CE59CB83CCD958E6D3 /* SnippetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsView.swift; sourceTree = "<group>"; };
+		53D07596E2AF8D5BF7270E72 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		56F73872EC0CF1CC16DCCFDE /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
+		7246CA019D314E71F2D87AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A8FEAC5B381298497AACFA2 /* FoundryClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundryClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBFEB07749E4A43381C903 /* SnippetEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetEditorView.swift; sourceTree = "<group>"; };
+		81139B8386CAA958771E1203 /* SensitivityDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensitivityDetector.swift; sourceTree = "<group>"; };
+		817AC1D66B285CE80F9C4285 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		9FA65045B075AFA21682F1AD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B3143E503E93F84E5B662994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C193CC21272744E01BD2CA23 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		E54BEC2A35E629F3570FF5A5 /* FoundryClip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoundryClip.xcdatamodel; sourceTree = "<group>"; };
+		FDC290B7220CD7B1CF362825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		697F87CE1B58AFFFC1F4A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4074311495465A6E7F3C1D83 /* HotKey in Frameworks */,
+				248436C206CA8FC72075B6EC /* LaunchAtLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B62FC7050A9C7B9E705A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A8FEAC5B381298497AACFA2 /* FoundryClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3243BBAA82C67486A450FE0A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0108BCAB0F2B8C819291A /* FoundryClipApp.swift */,
+				0FF345628C5FCF48FDE51475 /* SettingsManager.swift */,
+				E6C486A8719088DAD101474B /* Clipboard */,
+				553C36FB503B827A53682269 /* Models */,
+				B11356E89A7B7FC7E35A1E23 /* Sync */,
+				8E0A0442E31C8203DD0C158B /* Utils */,
+				9440B56F86F4F51FD9A35004 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		32D698405C8B2180CC8DDDB0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		553C36FB503B827A53682269 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E0A0442E31C8203DD0C158B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9440B56F86F4F51FD9A35004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3143E503E93F84E5B662994 /* ContentView.swift */,
+				1176B660361A8FB155B3240D /* FoundryColors.swift */,
+				C193CC21272744E01BD2CA23 /* HistoryListView.swift */,
+				9FA65045B075AFA21682F1AD /* SettingsView.swift */,
+				7CEBFEB07749E4A43381C903 /* SnippetEditorView.swift */,
+				397359CE59CB83CCD958E6D3 /* SnippetsView.swift */,
+				32D698405C8B2180CC8DDDB0 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B11356E89A7B7FC7E35A1E23 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		E6C486A8719088DAD101474B /* Clipboard */ = {
+			isa = PBXGroup;
+			children = (
+				817AC1D66B285CE80F9C4285 /* ClipboardItem.swift */,
+				56F73872EC0CF1CC16DCCFDE /* ClipboardManager.swift */,
+				53D07596E2AF8D5BF7270E72 /* DataStore.swift */,
+				81139B8386CAA958771E1203 /* SensitivityDetector.swift */,
+			);
+			path = Clipboard;
+			sourceTree = "<group>";
+		};
+		E840112E0C3389B3C170178A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7246CA019D314E71F2D87AF3 /* Assets.xcassets */,
+				17F30A8D44F2CEA834F27529 /* FoundryClip.entitlements */,
+				FDC290B7220CD7B1CF362825 /* Info.plist */,
+				898A488DE5DED473030A5532 /* FoundryClip.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8A077C7301AEB78E1404205 = {
+			isa = PBXGroup;
+			children = (
+				E840112E0C3389B3C170178A /* Resources */,
+				3243BBAA82C67486A450FE0A /* Sources */,
+				11B62FC7050A9C7B9E705A21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5B44DD25908C8AA739B14B /* FoundryClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E1E656F72AB0AFD757AA75 /* Build configuration list for PBXNativeTarget "FoundryClip" */;
+			buildPhases = (
+				2A87FA0C5D1954AC90B296D2 /* Sources */,
+				5451A1710A7504937A9D45DA /* Resources */,
+				697F87CE1B58AFFFC1F4A78F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoundryClip;
+			packageProductDependencies = (
+				536B3571750E41357EAED147 /* HotKey */,
+				55D53053B92876D56715355E /* LaunchAtLogin */,
+			);
+			productName = FoundryClip;
+			productReference = 7A8FEAC5B381298497AACFA2 /* FoundryClip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C222B49263B4FA4A4BE61AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8E5B44DD25908C8AA739B14B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0EFEE4BFDF5E8D3A39C2B3BB /* Build configuration list for PBXProject "FoundryClip" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F8A077C7301AEB78E1404205;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CCE75FC233118DC8EE1517B4 /* XCRemoteSwiftPackageReference "HotKey" */,
+				F39D0377970EDD22399EA5CF /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11B62FC7050A9C7B9E705A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5B44DD25908C8AA739B14B /* FoundryClip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5451A1710A7504937A9D45DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDB2F744E846E03AF14779F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A87FA0C5D1954AC90B296D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4ED0DA18D1311E6B8B03F8 /* ClipboardItem.swift in Sources */,
+				E09845D2E81B044F0EC07B4A /* ClipboardManager.swift in Sources */,
+				F3CA32A1BA9FC5B345B0C638 /* ContentView.swift in Sources */,
+				97B5C96349A4F3E14518A47F /* DataStore.swift in Sources */,
+				9BB020197C2AF381E660B748 /* FoundryClip.xcdatamodeld in Sources */,
+				F275957C0147BD74292ED88F /* FoundryClipApp.swift in Sources */,
+				C2AA22BDD5A72000B7F6D6FC /* FoundryColors.swift in Sources */,
+				4A20436D8999B4B2E68090BB /* HistoryListView.swift in Sources */,
+				C33D41771CC4C3928DD4DCD5 /* SensitivityDetector.swift in Sources */,
+				439042F899D871F9DA460331 /* SettingsManager.swift in Sources */,
+				4CF4005CD6512D4274A8951C /* SettingsView.swift in Sources */,
+				3EE668EDE0BE1848E8417CF2 /* SnippetEditorView.swift in Sources */,
+				29CD61246D3C061263F41D7C /* SnippetsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C9E6CF5866DAE3378C130FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Foundry Clip";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		83AA3AC7FF6D91F8DEC1D881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/FoundryClip.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.FoundryClip;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CF60995434EDF0402107B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/FoundryClip.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.FoundryClip;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D80ADE5C4BD5D6B658FC4047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Foundry Clip";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EFEE4BFDF5E8D3A39C2B3BB /* Build configuration list for PBXProject "FoundryClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80ADE5C4BD5D6B658FC4047 /* Debug */,
+				6C9E6CF5866DAE3378C130FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98E1E656F72AB0AFD757AA75 /* Build configuration list for PBXNativeTarget "FoundryClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AA3AC7FF6D91F8DEC1D881 /* Debug */,
+				9CF60995434EDF0402107B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCE75FC233118DC8EE1517B4 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		F39D0377970EDD22399EA5CF /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		536B3571750E41357EAED147 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCE75FC233118DC8EE1517B4 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+		55D53053B92876D56715355E /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39D0377970EDD22399EA5CF /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		898A488DE5DED473030A5532 /* FoundryClip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E54BEC2A35E629F3570FF5A5 /* FoundryClip.xcdatamodel */,
+			);
+			currentVersion = E54BEC2A35E629F3570FF5A5 /* FoundryClip.xcdatamodel */;
+			path = FoundryClip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C222B49263B4FA4A4BE61AB /* Project object */;
+}
