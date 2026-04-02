@@ -1,0 +1,14 @@
+{
+  "app_name": "Clip",
+  "subtitle": "Clipboard History & Snippets",
+  "description": "Clip keeps everything you copy, so nothing is ever lost.\n\nEvery time you copy text, an image, a link, or a file, Clip quietly saves it to a searchable history accessible from your menu bar. Press Cmd+Shift+V to instantly open the clipboard browser and find anything you have copied -- whether it was five minutes ago or five days ago.\n\nPowerful Search\nType a few characters to filter your clipboard history in real time. Clip searches across text content, source application names, and timestamps so you can locate the right item in seconds.\n\nPinned Items & Snippets\nFrequently paste the same email address, code snippet, or boilerplate paragraph? Pin any clipboard entry to keep it at the top of your list for one-click access. Organize pins into groups for even faster retrieval.\n\nClean & Unobtrusive\nClip lives in your menu bar and stays out of your way until you need it. A minimal, native macOS interface means it feels like a natural extension of the operating system rather than a bolted-on utility.\n\nPrivacy First\nYour clipboard data never leaves your Mac. Clip stores everything locally and offers configurable retention limits so you stay in control of what is kept and for how long.\n\nKey Features:\n- Unlimited clipboard history with instant recall\n- Global Cmd+Shift+V hotkey for quick access\n- Full-text search across all copied items\n- Pin frequently used snippets for fast pasting\n- Lightweight menu bar app with native macOS design\n- Configurable history retention and privacy controls\n- Support for text, images, links, and files",
+  "keywords": "clipboard,history,copy,paste,snippets,manager,menu bar,hotkey,productivity,text",
+  "primary_category": "Utilities",
+  "secondary_category": "",
+  "age_rating": "4+",
+  "copyright": "2026 Hanson Foundry",
+  "privacy_url": "https://hansonfoundry.com/privacy",
+  "support_url": "https://hansonfoundry.com/support",
+  "version": "1.0.0",
+  "bundle_id": "com.hansonfoundry.Clip"
+}
