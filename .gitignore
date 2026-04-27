@@ -6,3 +6,6 @@ xcuserdata/
 DerivedData/
 .build/
 *.swp
+
+._build
+*.xcodeproj/project.xcworkspace/

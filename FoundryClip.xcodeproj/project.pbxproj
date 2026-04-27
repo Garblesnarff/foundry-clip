@@ -21,6 +21,7 @@
 		C2AA22BDD5A72000B7F6D6FC /* FoundryColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1176B660361A8FB155B3240D /* FoundryColors.swift */; };
 		C33D41771CC4C3928DD4DCD5 /* SensitivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81139B8386CAA958771E1203 /* SensitivityDetector.swift */; };
 		E09845D2E81B044F0EC07B4A /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F73872EC0CF1CC16DCCFDE /* ClipboardManager.swift */; };
+		E166B66B6932DD6639BA3A72 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13559A2B6E2AE66A6EA76A77 /* PrivacyInfo.xcprivacy */; };
 		F275957C0147BD74292ED88F /* FoundryClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0108BCAB0F2B8C819291A /* FoundryClipApp.swift */; };
 		F3CA32A1BA9FC5B345B0C638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3143E503E93F84E5B662994 /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		0FF345628C5FCF48FDE51475 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		1176B660361A8FB155B3240D /* FoundryColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryColors.swift; sourceTree = "<group>"; };
+		13559A2B6E2AE66A6EA76A77 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		17F30A8D44F2CEA834F27529 /* FoundryClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoundryClip.entitlements; sourceTree = "<group>"; };
 		1CF0108BCAB0F2B8C819291A /* FoundryClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryClipApp.swift; sourceTree = "<group>"; };
 		397359CE59CB83CCD958E6D3 /* SnippetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF0108BCAB0F2B8C819291A /* FoundryClipApp.swift */,
+				13559A2B6E2AE66A6EA76A77 /* PrivacyInfo.xcprivacy */,
 				0FF345628C5FCF48FDE51475 /* SettingsManager.swift */,
 				E6C486A8719088DAD101474B /* Clipboard */,
 				553C36FB503B827A53682269 /* Models */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFDB2F744E846E03AF14779F /* Assets.xcassets in Resources */,
+				E166B66B6932DD6639BA3A72 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +322,7 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.FoundryClip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanson-foundry.clip;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -332,7 +336,7 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.FoundryClip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanson-foundry.clip;
 				SDKROOT = macosx;
 			};
 			name = Release;
